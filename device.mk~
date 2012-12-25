@@ -39,13 +39,12 @@ DEVICE_PACKAGE_OVERLAYS += \
 	device/samsung/galaxysmtd/overlay
 
 PRODUCT_COPY_FILES := \
-	device/samsung/galaxysmtd/prebuilts/etc/asound.conf:system/etc/asound.conf
+	device/samsung/galaxysmtd/asound.conf:system/etc/asound.conf
 
 # Prebuilt kl keymaps
 PRODUCT_COPY_FILES += \
-	device/samsung/galaxysmtd/prebuilts/usr/keylaout/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl \
-	device/samsung/galaxysmtd/prebuilts/usr/keylaout/melfas-touchkey.kl:system/usr/keylayout/melfas-touchkey.kl \
-	device/samsung/galaxysmtd/prebuilts/usr/keychars/melfas-touchkey.kcm.bin:system/usr/keychars/melfas-touchkey.kcm.bin
+	device/samsung/galaxysmtd/prebuilts/usr/keylaout/aries-keypad.kl:system/usr/keylayout/aries-keypad.kl
+	device/samsung/galaxysmtd/prebuilts/usr/keylaout/melfas-touchkey.kl:system/usr/keylayout/melfas-touchkey.kl
 
 # We have FFC
 PRODUCT_COPY_FILES += \
