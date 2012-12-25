@@ -9,7 +9,6 @@ key 8     7
 key 9     8
 key 10    9
 key 11    0
-key 1     BACK              WAKE_DROPPED
 key 158   BACK              WAKE_DROPPED
 key 230   SOFT_RIGHT        WAKE
 key 60    SOFT_RIGHT        WAKE
@@ -87,4 +86,7 @@ key 12    MINUS
 key 13    EQUALS
 key 215   AT
 
+# On an AT keyboard: ESC, F10
+key 1     BACK              WAKE_DROPPED
+key 68    MENU              WAKE_DROPPED
 
